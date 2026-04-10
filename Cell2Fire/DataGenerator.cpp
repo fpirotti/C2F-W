@@ -374,7 +374,7 @@ ForestGridTif(const std::string& filename, const std::unordered_map<std::string,
     }
     else
     {
-        throw std::runtime_error("Error: file type is not supported: '" + filename + "'");
+        throw std::runtime_error("Error: file type with " + n_bits +" bits is not supported: '" + filename + "'");
     }
 
     if (!buf)
@@ -512,7 +512,7 @@ DataGridsTif(const std::string& filename, std::vector<float>& data, int nCells)
     }
     else
     {
-        throw std::runtime_error("Error: file type is not supported: '" + filename + "'");
+        throw std::runtime_error("Error: file type without 64 or 32 bits is not supported: '" + filename + "'");
     }
     if (!buf)
     {
