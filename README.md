@@ -9,7 +9,7 @@
 
 A big-scale, grid, forest fire simulator; parallel and fast (c++) nevertheless with a friendly graphical user interface
 for QGIS.
-
+ 
 _Originally forked from [Cell2Fire](https://github.com/cell2fire/Cell2Fire), thanks to the work of Cristobal Pais, Jaime
 Carrasco, David Martell, [David L. Woodruff](https://github.com/DLWoodruff), Andres Weintraub, et al._
 

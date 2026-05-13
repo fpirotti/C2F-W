@@ -207,3 +207,4 @@ test/target_results
 docs/html
 docs/latex
 Data.csv
+.Rproj.user
