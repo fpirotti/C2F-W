@@ -159,7 +159,7 @@ CSVReader::getData(string filename)
         TIFFGetField(fuelsDataset, 33922, &count, &positions);
         double xllcorner{ positions[3] };
         double yllcorner{ positions[4] };
-        yllcorner -= cellSizeY;
+        yllcorner -= (cellSizeY*nYSize);
         std::vector<std::string> vec;
         vec.push_back("ncols");
         vec.push_back(std::to_string(nXSize));
