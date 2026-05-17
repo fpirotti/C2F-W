@@ -30,7 +30,7 @@
 #include <vector>
 
 using namespace std;
-string C2FW_VERSION = "v0.0.0";
+string C2FW_VERSION = "v0.0.0.1";
 string sim_log_filename = "ignition_and_weather_log.csv";
 
 class Cell2Fire
